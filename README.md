@@ -4,6 +4,18 @@
 > 28명 참가 | 최종 **1위** | 리더보드 최고점: **0.8713**
 
 ---
+## 목차
+
+- [Overview](#overview)
+- [Results](#results)
+- [Key Finding](#key-finding)
+- [Approach](#approach)
+- [Validation](#validation)
+- [How to Run](#how-to-run)
+- [Structure](#structure)
+- [Key Takeaways](#key-takeaways)
+- [Stack](#stack)
+---
 
 ## Overview
 
@@ -14,7 +26,7 @@
 | **핵심 발견** | 2048개 feature = **길이 2048의 시계열** (lag-1 상관 0.888) |
 | **최종 모델** | 7개 시계열 전용 베이스 모델 → Logistic Stacking → EM 사전보정 |
 | **정직 추정** | Nested CV 0.9136 (선택편향 제거) |
-| **리더보드** | **0.8713 / 1위** (2위 0.8710, 0.0003 차이) |
+| **리더보드** | **0.8713 / 1위** |
 
 ---
 
